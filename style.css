@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ms+Madi&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:greenyellow;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+h5 {
+    font-size: 1.225rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ukol{
+    font-family: 'Ms Madi', cursive;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    height: 70px;
+    background-color: #06fd50;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main > .pocty {
+    gap: 10px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.pocty > div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.ukol_vzor{
+    display: none;
+}
+
+.checkbox{
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+
+}
+
+.udelano{
+    text-decoration: line-through;
+    background-color: #ff0909;
+}
+
+.neudelano{
+    text-decoration: unset;
+    background-color: #e8e8e8;
+}
+input{
+    color:black;
+    background-color: aqua;
+}
+
+.tlacitko_pridat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFBA08;
+}
+
+.tlacitko_pridat img {
+    width: 36px;
+    transition: 0.5s all;
+}
+
+.tlacitko_pridat img:hover {
+    width: 42px;
+}
+
+footer {
+    margin: 10px auto;
+} 
