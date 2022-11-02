@@ -97,3 +97,8 @@ input{
 footer {
     margin: 10px auto;
 } 
+#zmazatVsechnyUkoly{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
